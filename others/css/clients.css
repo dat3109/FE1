@@ -74,7 +74,7 @@ footer {
   margin-right: 100px;
 }
 
-h1{
+h2{
   font-size: 100px;}
 
   #img2 {
@@ -116,3 +116,61 @@ h4{
   font-weight: normal;
 }
 
+@media screen and (max-width: 768px) {
+  #img1{
+    position: relative;
+  }
+  #img1>img { 
+    margin-bottom: 10%;
+    position: absolute;
+    left: 25%;
+    top: 81.9%;
+  }
+  #img1 img {
+    width: 161px;
+    height: 155px;
+  }
+  .body_content{
+    display: inline-block;
+    font-size: 52px;
+    width: 50%;
+    text-align: left;
+  }
+  h2{
+    text-align: center;
+    margin-bottom: 20%;
+  }
+  .img_02{
+    margin-right: 21%;
+  }
+  h4{
+    text-align: center;
+    padding-right: 24%;
+  }
+  .left-section, .right-section{
+    display: block;
+  }
+  .content{
+    margin-top: 50%;
+  }
+  .b{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .left-section_line2{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+  }
+  .footer-content{
+    display: block;
+  }
+  .right-section{
+    text-align: center;
+    width: 100%;
+    margin-top:16px;
+  }
+ 
+}

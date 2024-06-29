@@ -28,6 +28,7 @@ header {
 
 }
 
+
 nav .menu li{
   display:inline-block;
   margin-left: 40px;
@@ -57,7 +58,9 @@ footer {
   margin-right: 10%;
 
 }
-
+.underline_content{
+  font-size: 100px;
+}
 .footer-content {
   display: flex;
   justify-content: space-between;
@@ -108,6 +111,7 @@ footer {
   min-width: 600px ;
   background-color: #F5F8FB99;
   color: black;
+  position: relative;
 }
 
 .from {
@@ -133,7 +137,7 @@ body{
 
 .end.img2 img{
   width: 255.91px;
-    height: 427.13px;
+  height: 427.13px;
 }
 
 .undnerline {
@@ -168,4 +172,72 @@ body{
 .underline{
   margin-top: 10%;
   margin-bottom: 5%;
+}
+
+@media screen and (max-width: 920px){
+    html{
+      width: 126%;
+    }
+    .underline{
+      text-align: center;
+    }
+    .underline_content{
+      text-align: left;
+      font-size: 52px;
+    }
+    body{
+      width: 100%;
+    }
+    .body_section{
+      position: relative;
+      height: 900px;
+    }
+   
+    .body_section-img1 {
+      width: 100%;
+      position: absolute;
+      top: 80%;
+      text-align: center;
+  }
+  .img2 {
+    position: absolute;
+    top: 98%;
+    width: 75%;
+    text-align: center;
+}
+    .img2 img {
+      width: 328px;
+      height: 494px;
+  }
+    .img1 img {
+      width: 161px;
+      height: 157px;
+  }
+  .footer{
+    position: absolute;
+    top:150%;
+  }
+  .footer-content{
+    display: block;
+  }
+  .left-section, .right-section{
+    display: block;
+  }
+  .b{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .left-section_line2{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+  }
+
+  .right-section{
+    text-align: center;
+    width: 100%;
+    margin-top:16px;
+  }
 }
